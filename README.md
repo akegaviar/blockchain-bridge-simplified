@@ -15,7 +15,7 @@ It uses a wallet as an escrow and leverages the events triggered from the ERC20 
 
 ### Smart contracts
 
-Create a Metamask wallet and get some tokens for your target networks. This code was tested with Ropsten and Harmony testnet. You can get [Ropsten ETH here]() and [Harmony testnet ONE here]().
+Create a MetaMask wallet and get some tokens for your target networks. This code was tested with BNB mainnet and Polygon mainnet.
 
 Run `npm i` to install all required dependencies.
 

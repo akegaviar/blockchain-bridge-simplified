@@ -1,20 +1,20 @@
 <template>
   <div class="text-center pt-12">
     <h1 class="text-2xl font-bold mb-8">
-      Bridge from Harmony (test) to ETH (Ropsten)
+      Bridge from Polygon Mainnet to BNB Mainnet
     </h1>
 
     <p>
-      This bridge allows you to send ChainstackDollars (D-CHSD) from Harmony
-      testnet back to ETH Ropsten
+      This bridge allows you to send ChainstackDollars (D-CHSD) from Polygon Mainnet
+      back to BNB Mainnet
     </p>
 
     <WalletConnect
       class="my-4"
       :targetNetwork="destinationNetwork"
       :targetNetworkId="destinationNetworkId"
-      :currency="ONE"
-      :decimals="4"
+      :currency="MATIC"
+      :decimals="18"
       :isNewNetwork="true"
     />
 
